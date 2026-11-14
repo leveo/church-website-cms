@@ -5,7 +5,7 @@ Church4Christ (https://github.com/leveo/church4christ).
 
 To install it for a person:
 
-1. Clone the pinned release: `git clone --depth 1 --branch v1.4.0 https://github.com/leveo/church4christ.git <dir>`.
+1. Clone the pinned release: `git clone --depth 1 --branch v1.5.0 https://github.com/leveo/church4christ.git <dir>`.
 2. In that checkout, follow its own `AGENTS.md` (or `CLAUDE.md`) and `docs/setup.md`.
 3. When the person runs onboarding, start it with `npm run onboard -- --preset website`
    so the form pre-checks this edition's features. Let the person complete and save the form;
