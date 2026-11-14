@@ -2,7 +2,7 @@
   "mainRepo": "leveo/church4christ",
   "version": "v1.5.0",
   "preset": "website",
-  "homepage": "https://church4christ.yunfei-song.com/en/sandbox",
+  "homepage": "https://demo.church4christ.org/en/sandbox",
   "description": "Open-source church website CMS: sermon archive, events, weekly bulletins, articles, prayer wall, and a block page builder. English and Chinese, three themes, self-hosted on Cloudflare. A Church4Christ edition.",
   "topics": [
     "church",

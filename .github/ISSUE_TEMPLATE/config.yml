@@ -4,7 +4,7 @@ contact_links:
     url: https://github.com/leveo/church4christ/issues/new/choose
     about: All code lives in the main repository, so issues and questions are tracked there.
   - name: Try the live demo
-    url: https://church4christ.yunfei-song.com/en/sandbox
+    url: https://demo.church4christ.org/en/sandbox
     about: Explore the public sandbox with fictional data.
   - name: Report a security vulnerability
     url: https://github.com/leveo/church4christ/security/advisories/new
