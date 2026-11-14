@@ -1,0 +1,27 @@
+{
+  "mainRepo": "leveo/church4christ",
+  "version": "v1.4.0",
+  "preset": "website",
+  "homepage": "https://church4christ.yunfei-song.com/en/sandbox",
+  "description": "Open-source church website CMS: sermon archive, events, weekly bulletins, articles, prayer wall, and a block page builder. English and Chinese, three themes, self-hosted on Cloudflare. A Church4Christ edition.",
+  "topics": [
+    "church",
+    "church-website",
+    "church-cms",
+    "cms",
+    "sermons",
+    "sermon-archive",
+    "church-bulletin",
+    "events",
+    "page-builder",
+    "website-builder",
+    "church4christ",
+    "self-hosted",
+    "nonprofit",
+    "bilingual",
+    "i18n",
+    "cloudflare-workers",
+    "cloudflare-d1",
+    "astro"
+  ]
+}
