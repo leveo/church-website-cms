@@ -1,13 +1,13 @@
 # Open-source church website CMS
 
-A bilingual church website your staff can update without a developer: sermons, events, bulletins, articles, prayer requests, and a block page builder.
+A multilingual church website your staff can update without a developer: sermons, events, bulletins, articles, prayer requests, and a block page builder.
 
 This repository is the **Website** edition of [Church4Christ](https://github.com/leveo/church4christ), an open-source
 church management system and website. It contains no separate code: the quick start below
-installs Church4Christ v1.5.0 with only the Website features switched on (Bulletins, Sermons, Prayer Sheets, Prayer Wall, Events, Articles, Fellowships, Page Builder).
+installs Church4Christ v1.6.0 with only the Website features switched on (Bulletins, Sermons, Prayer Sheets, Prayer Wall, Events, Articles, Fellowships, Page Builder).
 Everything else stays off until you turn it on.
 
-**[Try the live demo](https://demo.church4christ.org/en/sandbox)** · [Main repository](https://github.com/leveo/church4christ) · [Setup guide](https://github.com/leveo/church4christ/blob/v1.5.0/docs/setup.md)
+**[Try the live demo](https://demo.church4christ.org/en/sandbox)** · [Main repository](https://github.com/leveo/church4christ) · [Setup guide](https://github.com/leveo/church4christ/blob/v1.6.0/docs/setup.md)
 
 ## What you get
 
@@ -18,19 +18,19 @@ Everything else stays off until you turn it on.
 - **Prayer wall.** Visitors send prayer requests; staff receive and care for them in the admin area.
 - **Fellowship directory.**
 - **Block page builder** for custom pages, with images stored in Cloudflare R2.
-- **English, Simplified Chinese, and Traditional Chinese.** Each page has an English and Chinese version, and readers can switch Chinese text to Traditional with one tap.
+- **12 interface languages**, including English and Simplified Chinese; each church turns on the ones it needs, and readers can switch Chinese text to Traditional with one tap.
 - **Three themes with light and dark modes,** all from design tokens, so your colors stay consistent.
 - **Staff sign in by magic link,** with no passwords to manage.
 
 ## Screenshots
 
-![The English home page](https://raw.githubusercontent.com/leveo/church4christ/v1.5.0/docs/images/public/home-en.png)
+![The English home page](https://raw.githubusercontent.com/leveo/church4christ/v1.6.0/docs/images/public/home-en.png)
 
-![The public sermon archive](https://raw.githubusercontent.com/leveo/church4christ/v1.5.0/docs/images/public/sermons.png)
+![The public sermon archive](https://raw.githubusercontent.com/leveo/church4christ/v1.6.0/docs/images/public/sermons.png)
 
-![The block page builder](https://raw.githubusercontent.com/leveo/church4christ/v1.5.0/docs/images/admin/page-builder.png)
+![The block page builder](https://raw.githubusercontent.com/leveo/church4christ/v1.6.0/docs/images/admin/page-builder.png)
 
-![The public events calendar](https://raw.githubusercontent.com/leveo/church4christ/v1.5.0/docs/images/public/events.png)
+![The public events calendar](https://raw.githubusercontent.com/leveo/church4christ/v1.6.0/docs/images/public/events.png)
 
 ## Try the live demo
 
@@ -42,7 +42,7 @@ You need [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/) 22.22.1 
 These commands work in macOS and Linux terminals and in Windows PowerShell.
 
 ```bash
-git clone --depth 1 --branch v1.5.0 https://github.com/leveo/church4christ.git my-church
+git clone --depth 1 --branch v1.6.0 https://github.com/leveo/church4christ.git my-church
 cd my-church
 npm ci
 npm run onboard -- --preset website
@@ -74,32 +74,32 @@ computer, sign-in links print to the terminal instead of being emailed.
 This is the complete Church4Christ codebase with a focused starting point. When you are
 ready, an administrator can turn on more features (sermons, events, volunteers, groups,
 check-in, and more) in **Settings → Modules**, without reinstalling. Upgrades follow the
-main repository's [upgrade guide](https://github.com/leveo/church4christ/blob/v1.5.0/docs/upgrade.md).
+main repository's [upgrade guide](https://github.com/leveo/church4christ/blob/v1.6.0/docs/upgrade.md).
 
 ## Learn more
 
-- [Public site and themes](https://github.com/leveo/church4christ/blob/v1.5.0/docs/features/public-site-and-themes.md)
-- [Sermons](https://github.com/leveo/church4christ/blob/v1.5.0/docs/features/sermons.md)
-- [Bulletins](https://github.com/leveo/church4christ/blob/v1.5.0/docs/features/bulletins.md)
-- [Page builder](https://github.com/leveo/church4christ/blob/v1.5.0/docs/features/page-builder.md)
-- [Prayer wall](https://github.com/leveo/church4christ/blob/v1.5.0/docs/features/prayer-wall.md)
-- [Putting it online with Cloudflare](https://github.com/leveo/church4christ/blob/v1.5.0/docs/setup.md)
+- [Public site and themes](https://github.com/leveo/church4christ/blob/v1.6.0/docs/features/public-site-and-themes.md)
+- [Sermons](https://github.com/leveo/church4christ/blob/v1.6.0/docs/features/sermons.md)
+- [Bulletins](https://github.com/leveo/church4christ/blob/v1.6.0/docs/features/bulletins.md)
+- [Page builder](https://github.com/leveo/church4christ/blob/v1.6.0/docs/features/page-builder.md)
+- [Prayer wall](https://github.com/leveo/church4christ/blob/v1.6.0/docs/features/prayer-wall.md)
+- [Putting it online with Cloudflare](https://github.com/leveo/church4christ/blob/v1.6.0/docs/setup.md)
 
 ## 中文简介
 
 ### 开源教会网站内容管理系统
 
-同工不用写代码就能更新的双语教会网站：讲道、活动、周报、文章、祷告事项和区块页面编辑器。
+同工不用写代码就能更新的多语言教会网站：讲道、活动、周报、文章、祷告事项和区块页面编辑器。
 
 - 可搜索的讲道资料库，活动日历与公告。
 - 每周周报、双语文章、祷告单。
 - 祷告墙：访客提交代祷事项，同工在后台跟进。
 - 区块页面编辑器，自由建立页面。
-- 英文、简体、繁体中文；三套主题，支持深色模式。
+- 12 种界面语言，中文可一键切换繁体；三套主题，支持深色模式。
 - 同工用邮件链接登录，无需密码。
 
 本仓库是 [Church4Christ](https://github.com/leveo/church4christ) 的单一功能版本，不包含另外的代码。按上面的快速开始安装后，
-得到的是完整的 Church4Christ v1.5.0，只预先开启了这一组功能；以后可以在「设置 → 模块」里开启更多功能。
+得到的是完整的 Church4Christ v1.6.0，只预先开启了这一组功能；以后可以在「设置 → 模块」里开启更多功能。
 
 ## Questions and issues
 

@@ -1,9 +1,9 @@
 {
   "mainRepo": "leveo/church4christ",
-  "version": "v1.5.0",
+  "version": "v1.6.0",
   "preset": "website",
   "homepage": "https://demo.church4christ.org/en/sandbox",
-  "description": "Open-source church website CMS: sermon archive, events, weekly bulletins, articles, prayer wall, and a block page builder. English and Chinese, three themes, self-hosted on Cloudflare. A Church4Christ edition.",
+  "description": "Open-source church website CMS: sermon archive, events, weekly bulletins, articles, prayer wall, and a block page builder. 12 interface languages, three themes, self-hosted on Cloudflare. A Church4Christ edition.",
   "topics": [
     "church",
     "church-website",
@@ -18,7 +18,7 @@
     "church4christ",
     "self-hosted",
     "nonprofit",
-    "bilingual",
+    "multilingual",
     "i18n",
     "cloudflare-workers",
     "cloudflare-d1",
